@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.assColumn( 
+    return queryInterface.addColumn( 
      'Voitures',
      'brandId',
      {
